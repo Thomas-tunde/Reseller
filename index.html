@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseller Partnership Program | Pluto Cloud Computing NG</title>
+    <meta name="description"
+        content="Join Pluto Cloud's Reseller Partnership Program in Nigeria. Resell enterprise-grade cloud storage and connectivity solutions to SMEs. Competitive pricing, white-labeling, and dedicated support.">
+    <meta name="keywords"
+        content="cloud reseller Nigeria, cloud storage partnership, SME cloud services, cloud connectivity Nigeria, Pluto Cloud reseller, cloud computing Nigeria, IT reseller program, enterprise cloud solutions">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Pluto Cloud Computing NG">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --dark-blue: #1A2A44;
+            --light-blue: #00A1D6;
+            --red: #FF0000;
+            --dark-red: #CC0000;
+            --light-gray: #F5F7FA;
+            --white: #FFFFFF;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--dark-blue);
+            background: var(--light-gray);
+            font-size: 1.125rem;
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--dark-blue);
+            color: var(--white);
+            text-align: center;
+            padding: 3.5rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        section {
+            padding: 3rem 1rem;
+            max-width: 75rem;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            color: var(--dark-blue);
+            margin-bottom: 1.25rem;
+        }
+
+        h3 {
+            font-size: 1.375rem;
+            color: var(--dark-blue);
+        }
+
+        ul,
+        ol {
+            font-size: 1.25rem;
+            padding-left: 1.5rem;
+        }
+
+        p {
+            font-size: 1.125rem;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+            gap: 1.5rem;
+            justify-content: center;
+        }
+
+        .benefit-item {
+            background: var(--white);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .benefit-item:hover {
+            transform: translateY(-0.3125rem);
+        }
+
+        .benefit-item i {
+            font-size: 2.5rem;
+            color: var(--dark-blue);
+            margin-bottom: 0.9375rem;
+        }
+
+        form {
+            background: var(--white);
+            padding: 1.875rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+            max-width: 37.5rem;
+            margin: 0 auto;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 0.75rem;
+            margin: 0.625rem 0;
+            border: 1px solid var(--light-blue);
+            border-radius: 0.375rem;
+            font-size: 1.125rem;
+            min-height: 3rem;
+        }
+
+        button {
+            background: var(--red);
+            color: var(--white);
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            font-size: 1.25rem;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: var(--dark-red);
+        }
+
+        .submit-btn {
+            background: var(--dark-blue);
+        }
+
+        .submit-btn:hover {
+            background: var(--light-blue);
+        }
+
+        .how-it-works {
+            background: linear-gradient(135deg, var(--light-gray), #E6F0FA);
+            padding: 2.5rem;
+            border-radius: 0.75rem;
+        }
+
+        .how-it-works ol {
+            list-style: none;
+            counter-reset: step;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.25rem;
+            justify-content: center;
+        }
+
+        .how-it-works li {
+            counter-increment: step;
+            position: relative;
+            padding-left: 3.75rem;
+            max-width: 18.75rem;
+            margin-bottom: 1.25rem;
+            font-size: 1.25rem;
+        }
+
+        .how-it-works li::before {
+            content: counter(step);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 2.5rem;
+            height: 2.5rem;
+            background: var(--dark-blue);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .how-it-works li:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+
+        .testimonial-carousel {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .testimonial-grid {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .testimonial {
+            flex: 0 0 33.33%;
+            background: var(--white);
+            padding: 1.25rem;
+            border-left: 0.25rem solid var(--dark-blue);
+            border-radius: 0.5rem;
+            box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+            margin: 0.625rem;
+        }
+
+        .testimonial p {
+            font-size: 1.125rem;
+            font-style: italic;
+        }
+
+        .testimonial cite {
+            font-size: 1rem;
+            color: var(--dark-blue);
+        }
+
+        .carousel-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.5rem;
+            color: var(--dark-blue);
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .carousel-nav.left {
+            left: 0.625rem;
+        }
+
+        .carousel-nav.right {
+            right: 0.625rem;
+        }
+
+        .email-link {
+            text-decoration: none;
+            color: var(--dark-blue);
+        }
+
+        .email-link:hover,
+        .email-link:active {
+            color: var(--red);
+        }
+
+        .success-message {
+            display: none;
+            background: var(--white);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+            margin-top: 1.5rem;
+            text-align: center;
+        }
+
+        .success-message.active {
+            display: block;
+        }
+
+        .success-message i {
+            font-size: 2rem;
+            color: var(--light-blue);
+            margin-bottom: 0.625rem;
+        }
+
+        footer {
+            background: var(--dark-blue);
+            color: var(--white);
+            text-align: center;
+            padding: 1.25rem;
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: var(--light-blue);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 576px) {
+            header {
+                padding: 2.5rem 0.625rem;
+            }
+
+            section {
+                padding: 1.875rem 0.625rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.25rem;
+            }
+
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .testimonial-grid {
+                flex: 0 0 100%;
+            }
+
+            .testimonial {
+                flex: 0 0 100%;
+            }
+
+            input,
+            textarea,
+            select,
+            button {
+                font-size: 1rem;
+                min-height: 3rem;
+            }
+        }
+
+        @media (min-width: 576px) and (max-width: 768px) {
+            .benefits-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .testimonial-grid {
+                flex: 0 0 50%;
+            }
+
+            .testimonial {
+                flex: 0 0 50%;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .benefits-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .testimonial-grid {
+                flex: 0 0 33.33%;
+            }
+
+            .testimonial {
+                flex: 0 0 33.33%;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Pluto Cloud Computing NG",
+        "url": "https://www.plutocloudcomputing.ng",
+        "sameAs": ["https://x.com/PlutoCloudNG"],
+        "description": "Pluto Cloud Computing NG offers enterprise-grade cloud storage and connectivity solutions in Nigeria with a reseller program for IT partners.",
+        "address": { "@type": "PostalAddress", "addressCountry": "NG", "addressRegion": "Nigeria" },
+        "contactPoint": { "@type": "ContactPoint", "contactType": "Partner Inquiries", "email": "info@plutocloudcomputing.ng" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Cloud Reseller Partnership Program",
+        "provider": { "@type": "Organization", "name": "Pluto Cloud Computing NG" },
+        "description": "Resell enterprise-grade cloud storage and connectivity solutions to SMEs in Nigeria with competitive pricing, white-labeling, and dedicated support.",
+        "areaServed": { "@type": "Country", "name": "Nigeria" }
+    }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Pluto Cloud Computing</h1>
+        <h2><i class="fas fa-cloud"></i> Call for Partnership: Pluto Cloud Reseller Program</h2>
+        <p>Pluto Cloud Computing NG invites qualified IT and technology service providers to join our Reseller
+            Partnership Program and deliver enterprise-grade cloud solutions to SMEs across Nigeria and beyond.</p>
+        <a href="#contact"
+            style="color: var(--white); background: var(--red); padding: 0.75rem 1.5rem; border-radius: 1.5625rem; text-decoration: none; font-size: 1.25rem;">Apply
+            Now</a>
+    </header>
+
+    <section id="intro">
+        <h2>About the Reseller Partnership</h2>
+        <p>Our Reseller Partnership Program is designed to expand access to Pluto Cloud’s enterprise-grade cloud storage
+            and connectivity solutions. As an authorized reseller, you’ll empower small and medium-sized enterprises
+            (SMEs) with scalable, secure, and affordable cloud infrastructure tailored to their needs.</p>
+        <p>We’re looking for partners in Nigeria’s IT, telecommunications, and technology service sectors to join us in
+            driving digital transformation across Africa. Leverage our robust platform to grow your business and enhance
+            your service offerings.</p>
+    </section>
+
+    <section id="eligibility">
+        <h2>Eligibility Criteria</h2>
+        <p>We seek partners who:</p>
+        <ul>
+            <li>Operate within the IT, telecommunications, or technology service sector in Nigeria or beyond.</li>
+            <li>Have an existing client base or proven experience managing enterprise or SME customers.</li>
+            <li>Demonstrate the capacity to promote and support cloud storage and connectivity solutions effectively.
+            </li>
+        </ul>
+    </section>
+
+    <section id="benefits" style="background: #E6F0FA;">
+        <h2>Benefits of Partnering with Pluto Cloud</h2>
+        <div class="benefits-grid">
+            <div class="benefit-item">
+                <i class="fas fa-server"></i>
+                <h3>Enterprise-Grade Solutions</h3>
+                <p>Access our secure, scalable cloud storage and connectivity services tailored for SMEs.</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fas fa-percentage"></i>
+                <h3>Competitive Pricing</h3>
+                <p>Benefit from reseller discounts and a revenue-sharing structure designed for profitability.</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fas fa-hands-helping"></i>
+                <h3>Dedicated Support</h3>
+                <p>Receive technical and business development support to ensure your success as a reseller.</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fas fa-brands fa-buffer"></i>
+                <h3>White-Labeling Options</h3>
+                <p>Strengthen your brand by offering Pluto Cloud services under your own branding.</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <h3>Scalable Infrastructure</h3>
+                <p>Provide SMEs with flexible cloud solutions that grow with their business needs.</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fas fa-shield-alt"></i>
+                <h3>NDPR Compliance</h3>
+                <p>Offer cloud services that meet Nigeria Data Protection Regulation standards.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <h2>How the Reseller Program Works</h2>
+        <ol>
+            <li><strong>Apply:</strong> Submit your proposal detailing your company background, client base, and
+                reseller strategy.</li>
+            <li><strong>Onboard:</strong> Gain access to our reseller portal, training, and technical resources.</li>
+            <li><strong>Promote:</strong> Market Pluto Cloud’s storage and connectivity solutions to your SME clients.
+            </li>
+            <li><strong>Earn:</strong> Enjoy competitive margins, track earnings, and grow with our support.</li>
+        </ol>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Reseller Partners Say</h2>
+        <div class="testimonial-carousel">
+            <div class="carousel-nav left"><i class="fas fa-chevron-left"></i></div>
+            <div class="testimonial-grid" id="testimonial-grid">
+                <div class="testimonial">
+                    <p>"Pluto Cloud’s reseller program transformed our ability to serve SMEs in Lagos with affordable
+                        cloud solutions."</p>
+                    <cite>— IT Consultant, Abuja</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"The white-labeling option allowed us to strengthen our brand while delivering enterprise-grade
+                        services."</p>
+                    <cite>— MSP Owner, Port Harcourt</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"Pluto’s dedicated support and NDPR compliance helped us win trust with local clients."</p>
+                    <cite>— Tech Agency, Enugu</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"The training and local market focus made it easy to onboard SME clients."</p>
+                    <cite>— Freelance Consultant, Ibadan</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"Pluto’s reseller portal is intuitive, and the revenue-sharing model boosted our profits."</p>
+                    <cite>— IT Firm, Kano</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"Partnering with Pluto has positioned us as cloud leaders in our region."</p>
+                    <cite>— Startup Founder, Benin City</cite>
+                </div>
+            </div>
+            <div class="carousel-nav right"><i class="fas fa-chevron-right"></i></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Apply to Become a Reseller</h2>
+        <p>Submit your proposal to join our Reseller Partnership Program. Include your company background, client base,
+            and strategy for leveraging this opportunity.</p>
+        <form id="reseller-form" action="/submit-partner-form.php" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number (e.g., +234.)" required>
+            <input type="text" name="company" placeholder="Company Name" required>
+            <textarea name="client-base" rows="3"
+                placeholder="Describe your client base (e.g., SMEs, enterprises, industries)" required></textarea>
+            <textarea name="strategy" rows="5"
+                placeholder="How will you leverage this partnership? (e.g., marketing approach, target market)"
+                required></textarea>
+            <button type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i> Submit Proposal</button>
+        </form>
+        <div id="success-message" class="success-message">
+            <i class="fas fa-check-circle"></i>
+            <h3>Proposal Submitted Successfully!</h3>
+            <p>Thank you for your submission. We've received your proposal and will review it. A confirmation email has
+                been sent to you shortly.</p>
+        </div>
+        <p><strong>Email:</strong> <a href="mailto:info@plutocloudcomputing.ng"
+                class="email-link">info@plutocloudcomputing.ng</a><br>
+            <strong>Deadline:</strong>SOON!
+        </p>
+        <script>
+            const form = document.getElementById('reseller-form');
+            const successMessage = document.getElementById('success-message');
+            form.addEventListener('submit', (e) => {
+                // Let PHP handle submission, then show success message
+                setTimeout(() => {
+                    successMessage.classList.add('active');
+                    form.reset();
+                    form.style.display = 'none';
+                }, 1000); // Delay for user feedback
+            });
+        </script>
+        <script>
+            const grid = document.getElementById('testimonial-grid');
+            const leftNav = document.querySelector('.carousel-nav.left');
+            const rightNav = document.querySelector('.carousel-nav.right');
+            let currentIndex = 0;
+            let visibleItems = window.innerWidth <= 576 ? 1 : window.innerWidth <= 768 ? 2 : 3;
+
+            function updateCarousel() {
+                grid.style.transform = `translateX(-${currentIndex * (100 / visibleItems)}%)`;
+            }
+
+            leftNav.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    updateCarousel();
+                }
+            });
+
+            rightNav.addEventListener('click', () => {
+                if (currentIndex < 6 - visibleItems) {
+                    currentIndex++;
+                    updateCarousel();
+                }
+            });
+
+            window.addEventListener('resize', () => {
+                visibleItems = window.innerWidth <= 576 ? 1 : window.innerWidth <= 768 ? 2 : 3;
+                currentIndex = 0;
+                updateCarousel();
+            });
+        </script>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pluto Cloud Computing NG. All rights reserved. | <a href="https://x.com/PlutoCloudNG">Follow us
+                on X @PlutoCloudNG</a> | <a href="terms.html">Terms & Conditions</a></p>
+    </footer>
+</body>
+
+</html>
