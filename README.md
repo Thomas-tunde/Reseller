@@ -6,11 +6,6 @@ Pluto™  cloud services resellers program
 ```markdown
 # 🌍 Pluto Cloud Reseller Program Page
 
-![Responsive](https://img.shields.io/badge/design-responsive-blue)
-![SEO Optimized](https://img.shields.io/badge/SEO-optimized-brightgreen)
-![FormSubmit](https://img.shields.io/badge/form-email%20forwarding-orange)
-![License](https://img.shields.io/badge/license-proprietary-red)
-
 A professional, responsive, and SEO-optimized single-page web application for Pluto Cloud Computing’s Reseller Partnership Program. Built with HTML, CSS, and FormSubmit — no backend required.
 
 ---
@@ -155,7 +150,7 @@ Deploy using:
 ## 📞 Contact
 
 **Pluto Cloud Computing**  
-📧 Email: [asklol503@gmail.com](mailto:asklol503@gmail.com)  
+📧 Email: [asklol503@gmail.com](mailto:xxxx@gmail.com)  
 🌐 Website: [plutocloudcomputing.ng](https://www.plutocloudcomputing.ng)
 
 ---
@@ -166,4 +161,4 @@ This repository is licensed under the Pluto Cloud Computing Proprietary Non-Comm
 
 Copyright (c) 2025 Pluto Cloud Computing. All rights reserved.
 
-Use of this software is permitted only for internal, non-commercial purposes; commercial use is strictly prohibited. For commercial licensing inquiries, contact: licensing@plutocloud.com.
+Use of this software is permitted only for internal, non-commercial purposes; commercial use is strictly prohibited. For commercial licensing inquiries, contact: info@plutocloud.com.
