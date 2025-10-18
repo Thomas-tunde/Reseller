@@ -26,8 +26,6 @@ This page invites qualified organizations across Nigeria and Africa to become au
 - ✅ Fully responsive layout
 - ✅ SEO metadata for visibility
 
-
-
 ## 📁 File Structure
 
 ```
@@ -38,8 +36,6 @@ pluto-reseller/
 │   └── images/
 │       └── reseller-banner.jpg  # Hero background image
 ```
-
-
 
 ## 📄 Page Sections
 
@@ -91,8 +87,6 @@ Powered by [FormSubmit](https://formsubmit.co/):
 </form>
 ```
 
-
-
 ## 📱 Responsiveness
 
 Designed mobile-first using:
@@ -119,10 +113,9 @@ Includes:
 - Author and viewport tags
 
 ```html
-<meta name="description" content="Join the Pluto Cloud Reseller Program and become an authorized distributor of secure, scalable cloud solutions across Nigeria and Africa. Partner with us today." />
-<meta name="keywords" content="cloud reseller, Pluto Cloud Computing, reseller partnership Nigeria, cloud storage distributor, reseller program Africa, cloud infrastructure, cloud hosting reseller, business cloud partnership, enterprise cloud Nigeria, Pluto reseller program" />
+<meta name="description" content="Join the Pluto Cloud Reseller Program and become an authorized distributor of secure, scalable cloud solutions across Nigeria and Africa. Partner with us today.">
+<meta name="keywords" content="cloud reseller, Pluto Cloud Computing, reseller partnership Nigeria, cloud storage distributor, reseller program Africa, cloud infrastructure, cloud hosting reseller">
 ```
-
 
 ## 🛠️ Technologies Used
 
@@ -132,24 +125,17 @@ Includes:
 - Google Fonts: [Inter](https://fonts.google.com/specimen/Inter)
 - FormSubmit for email forwarding
 
-
-
 ## 📤 Deployment
 
 Deploy using:
 
 - GitHub Pages
-- Netlify
-- Vercel
-- Any static host
 
 ### Steps
 
 1. Upload `index.html` and `reseller-banner.jpg`
 2. Confirm image path: `/assets/images/reseller-banner.jpg`
 3. Test form submission and success redirect
-
-
 
 ## 🧪 Testing Checklist
 
@@ -160,23 +146,24 @@ Deploy using:
 - [x] Responsive layout
 - [x] SEO tags render correctly
 
-
-
 ## 📌 Notes
 
 - You can change the form endpoint by updating the `action` attribute.
 - For advanced form handling, consider integrating with a backend or CRM.
 - Ensure your email is verified with FormSubmit to avoid spam filtering.
 
-
-
 ## 📞 Contact
 
 **Pluto Cloud Computing**  
-📧 Email: [asklol503@gmail.com](mailto:xxx@gmail.com)  
+📧 Email: [asklol503@gmail.com](mailto:asklol503@gmail.com)  
 🌐 Website: [plutocloudcomputing.ng](https://www.plutocloudcomputing.ng)
 
 ---
 
 ## 📘 License
-~NIL
+
+This repository is licensed under the Pluto Cloud Computing Proprietary Non-Commercial License (PCC‑PNCL). See the LICENSE file in this repository for full terms: ./LICENSE
+
+Copyright (c) 2025 Pluto Cloud Computing. All rights reserved.
+
+Use of this software is permitted only for internal, non-commercial purposes; commercial use is strictly prohibited. For commercial licensing inquiries, contact: licensing@plutocloud.com.
